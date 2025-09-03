@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import TokenomicsSection from './components/TokenomicsSection';
 import CommunitySection from './components/CommunitySection';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutSection />
       <TokenomicsSection />
       <CommunitySection />
+      <Footer />
     </div>
   );
 }
